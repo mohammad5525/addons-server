@@ -135,7 +135,7 @@ setuptools==75.8.0 \
 six==1.17.0 \
     --hash=sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274 \
     --hash=sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81
-urllib3==1.26.20 \
+urllib3==2.5.0 \
     --hash=sha256:0ed14ccfbf1c30a9072c7ca157e4319b70d65f623e91e7b32fadb2853431016e \
     --hash=sha256:40c2dc0c681e47eb8f90e7e27bf6ff7df2e677421fd46756da1161c39ca70d32
 wheel==0.45.1 \
@@ -575,7 +575,7 @@ colorgram.py==1.2.0 \
 Deprecated==1.2.18 \
     --hash=sha256:422b6f6d859da6f2ef57857761bfb392480502a64c3028ca9bbe86085d72115d \
     --hash=sha256:bd5011788200372a32418f888e326a09ff80d0214bd961147cfed01b5c018eec
-Django==4.2.21 \
+Django==5.0.14 \
     --hash=sha256:1d658c7bf5d31c7d0cac1cab58bc1f822df89255080fec81909256c30e6180b3 \
     --hash=sha256:b54ac28d6aa964fc7c2f7335138a54d78980232011e0cd2231d04eed393dcb0d
 django-aesfield==4.0.0 \
@@ -757,7 +757,7 @@ redis==4.6.0 \
     --hash=sha256:585dc516b9eb042a619ef0a39c3d7d55fe81bdb4df09a52c9cdde0d07bf1aa7d \
     --hash=sha256:e2b03db868160ee4591de3cb90d40ebb50a90dd302138775937f6a42b7ed183c
 # requests is required by PyBrowserID, amo-validator, django-mozilla-product-details, docker-compose, docker-py, nobot, pytest-base-url, pyupio, safety
-requests==2.32.3 \
+requests==2.32.4 \
     --hash=sha256:55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760 \
     --hash=sha256:70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6
 # sgmllib3k is required by feedparser
@@ -922,7 +922,7 @@ google-resumable-media==2.7.2 \
 proto-plus==1.26.1 \
     --hash=sha256:13285478c2dcf2abb829db158e1047e2f1e8d63a077d94263c2b88b043c75a66 \
     --hash=sha256:21a515a4c4c0088a773899e23c7bbade3d18f9c66c73edd4c7ee3816bc96a012
-protobuf==4.25.6 \
+protobuf==4.25.8 \
     --hash=sha256:07972021c8e30b870cfc0863409d033af940213e0e7f64e27fe017b929d2c9f7 \
     --hash=sha256:3f3b0b39db04b509859361ac9bca65a265fe9342e6b9406eda58029f5b1d10b2 \
     --hash=sha256:4434ff8bb5576f9e0c78f47c41cdf3a152c0b44de475784cd3fd170aef16205a \
@@ -1406,3 +1406,4 @@ jsonschema-specifications==2023.12.1 \
 drf-spectacular-sidecar==2024.7.1 \
     --hash=sha256:5dc8b38ad153e90b328152674c7959bf114bf86360a617a5a4516e135cb832bc \
     --hash=sha256:beb992d6ece806a2d422ad626983e2472c0a5550de9647a7ed6764716a5abdfe
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
