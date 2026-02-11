@@ -347,3 +347,4 @@ networkx==3.4.2 \
 pydot==4.0.0 \
     --hash=sha256:12f16493337cade2f7631b87c8ccd299ba2e251f3ee5d0732a058df2887afe97 \
     --hash=sha256:cf86e13a6cfe2a96758a9702537f77e0ac1368db8ef277b4d3b34473ea425c97
+django>=4.2.28 # not directly required, pinned by Snyk to avoid a vulnerability
